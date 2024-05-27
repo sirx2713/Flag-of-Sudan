@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: #4D869C;
+}
+#container{
+    position: relative;
+}
+#container > #triangle{
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 260px solid #007229;
+    border-top: 225px solid transparent;
+    border-bottom: 225px solid transparent;
+}
+#container > #flex-box{
+    display: flex;
+    flex-direction: column;
+}
+#container > #flex-box > #red-box{
+    height: 150px;
+    width: 1200px;
+    background-color: #D21034;
+}
+#container > #flex-box > #white-box{
+    height: 150px;
+    width: 1200px;
+    background-color: #FFFFFF;
+}
+#container > #flex-box > #black-box{
+    height: 150px;
+    width: 1200px;
+    background-color: #000000;
+}
